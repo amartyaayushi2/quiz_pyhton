@@ -37,7 +37,7 @@ for i in range(n):
     except:
         if ans.lower()==data["results"][i]["correct_answer"].lower():
             c+=1
-            print("Correct Answer")1
+            print("Correct Answer")
         else:
             print("Incorrect Answer")
 
