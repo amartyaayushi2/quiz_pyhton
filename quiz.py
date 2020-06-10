@@ -37,8 +37,8 @@ for i in range(n):
     except:
         if ans.lower()==data["results"][i]["correct_answer"].lower():
             c+=1
-            print("Correct Answer")
+            print("Correct Answer")1
         else:
             print("Incorrect Answer")
 
-print("Your Score is: "+str(c))
+print("Your Score is: {} out of {}.".format(c,n))
